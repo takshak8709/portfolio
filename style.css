@@ -1,0 +1,149 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #1b1b1b;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.section {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Hero Section Styles */
+#hero {
+    position: relative;
+    height: 100vh;
+    color: #fff; /* Text color is white */
+    background-color: #1b1b1b; /* Changed background color to dark gray */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    z-index: 1;
+}
+
+#background-visual {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 0;
+}
+
+/* Background Animation */
+#background-visual canvas {
+    display: block;
+    background: radial-gradient(circle, #1b1b1b, #000); /* Ensures the background matches */
+}
+
+
+p {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    color: #555;
+}
+
+.education-item, .project-item, .experience-item {
+    margin-bottom: 30px;
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #1b1b1b;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.social-links a {
+    color: #1b1b1b;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+.social-links a:hover {
+    color: #0073b1; /* LinkedIn color */
+}
+
+/* Hero Section Styles */
+#hero {
+    position: relative;
+    height: 100vh;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    z-index: 1;
+  
+}
+
+#background-visual {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 0;
+}
+
+/* Background Animation */
+#background-visual canvas {
+    display: block;
+    background: radial-gradient(circle, #1b1b1b, #000);
+}
